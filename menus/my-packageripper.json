@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle my-packageripper",
+        "command": "my-packageripper:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "my-packageripper",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "my-packageripper:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
